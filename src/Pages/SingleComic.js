@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import UpdateComic from '../components/UpdateComic';
 
 export default function SingleComic() {
+  // Get the comic ID from the URL parameter using the useParams hook
   const { id } = useParams();
   const [comic, setComic] = useState([]);
 
