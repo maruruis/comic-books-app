@@ -13,7 +13,7 @@ import 'semantic-ui-css/semantic.min.css';
 function App() 
 {
 
-
+// Wrap the entire app in a BrowserRouter component to enable routing
   return (
    <BrowserRouter>
    <Routes>
