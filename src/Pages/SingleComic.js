@@ -5,6 +5,7 @@ import UpdateComic from '../components/UpdateComic';
 export default function SingleComic() {
   // Get the comic ID from the URL parameter using the useParams hook
   const { id } = useParams();
+   // Declare a state variable to store the comic data
   const [comic, setComic] = useState([]);
 
   useEffect(() => {
