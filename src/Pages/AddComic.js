@@ -5,7 +5,7 @@ export default function AddComic() {
   const [title, setTitle] = useState('');
   const [desc, setDescription] = useState('');
   const [image_url, setImageUrl] = useState('');
-
+  // Define a function to handle the comic submit event
   function comicSubmit(e) {
     e.preventDefault();
 
