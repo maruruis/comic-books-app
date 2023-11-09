@@ -9,7 +9,7 @@ export default function UpdateComic({ comic }) {
     // Handle a change to the comic data
   function handleComicUpdate(event) {
     event.preventDefault();
-
+    
     fetch(`https://comics-w7h9.onrender.com/comic/${comic.id}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
@@ -25,7 +25,7 @@ export default function UpdateComic({ comic }) {
         alert('Comic updated successfully!');
       })
       .catch((error) => {
-        alert('Oops...');
+        alert('cant update...');
       });
   }
 
