@@ -17,7 +17,7 @@ export default function SingleComic() {
         });
     }
   }, [id]);
-
+        // Render the comic data
   return (
     <div className="container row">
       <div className="col-md-6">
