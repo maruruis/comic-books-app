@@ -18,7 +18,7 @@ export default function Comic({comic})
 
    
     }
-
+       // Render a card component for the comic
   return (
     <div className='col-md-3 mb-5 '>
         <img src={comic.image} alt='loading...' className='img-fluid' />
