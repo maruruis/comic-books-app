@@ -6,7 +6,7 @@ export default function UpdateComic({ comic }) {
   const [description, setDescription] = useState(comic.description || '');
   const [imageUrl, setImageUrl] = useState(comic.image || '');
 
-  // Renamed function
+
   function handleComicUpdate(event) {
     event.preventDefault();
 
