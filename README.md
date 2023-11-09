@@ -6,8 +6,8 @@
     - Download zip in the code section of github to your desired folder
     - Extract the files
     - Open the folder with vs code.
-    - Then run "json-server --watch database.json" to run our server.
-    - The run your index.html by either using the "GO LIVE" extension or by double clicking of the index.html
+    - Then run "json-server --watch db.json" to run our server.
+    - then type npm start to run the application.
     - And your application is running.
        
 ## Live link
@@ -21,8 +21,7 @@ deployed backend can be accessed here  https://comics-w7h9.onrender.com
 
 ## Technologies used
     - JS
-    - HTML and CSS
-    - Fontawesome
+    - CSS
     - BOOTSRAP
 
 ## Support and contact details
