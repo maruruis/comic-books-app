@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 export default function AddComic() {
+    // Declare state variables to store the comic's title, description, and image URL
   const [title, setTitle] = useState('');
   const [desc, setDescription] = useState('');
   const [image_url, setImageUrl] = useState('');
