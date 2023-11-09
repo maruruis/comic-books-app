@@ -8,7 +8,7 @@ export default function AddComic() {
   // Define a function to handle the comic submit event
   function comicSubmit(e) {
     e.preventDefault();
-
+    // Send a POST request to the API to create the new comic
     fetch('https://comics-w7h9.onrender.com/comic', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
