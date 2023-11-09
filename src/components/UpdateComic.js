@@ -6,7 +6,7 @@ export default function UpdateComic({ comic }) {
   const [description, setDescription] = useState(comic.description || '');
   const [imageUrl, setImageUrl] = useState(comic.image || '');
 
-
+    // Handle a change to the comic data
   function handleComicUpdate(event) {
     event.preventDefault();
 
