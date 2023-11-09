@@ -8,7 +8,7 @@ export default function SingleComic() {
 
   useEffect(() => {
     if (id) {
-      fetch(`http://localhost:4000/comic/${id}`)
+      fetch(`https://comics-w7h9.onrender.com/comic/${id}`)
         .then((res) => res.json())
         .then((res) => {
           setComic(res);

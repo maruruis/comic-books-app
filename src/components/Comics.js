@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react';
 import Comic from './Comic';
 
 export default function Comics() {
+  // Declare a state variable to store the comics data
   const [comics, setComics] = useState([]);
-
+   
   useEffect(() => {
-    fetch('http://localhost:4000/comic')
+    fetch('https://comics-w7h9.onrender.com/comic')
       .then((response) => response.json())
       .then((data) => {
         setComics(data);

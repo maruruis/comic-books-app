@@ -6,7 +6,7 @@ export default function Comic({comic})
 {
 
     function deleteComic(){
-        fetch(`http://localhost:4000/comic/${comic.id}`, {
+        fetch(`https://comics-w7h9.onrender.com/comic/${comic.id}`, {
             method: "DELETE"
         })
       .then((res)=>res.json())

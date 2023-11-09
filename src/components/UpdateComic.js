@@ -10,7 +10,7 @@ export default function UpdateComic({ comic }) {
   function handleComicUpdate(event) {
     event.preventDefault();
 
-    fetch(`http://localhost:4000/comic/${comic.id}`, {
+    fetch(`https://comics-w7h9.onrender.com/comic/${comic.id}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

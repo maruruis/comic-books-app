@@ -8,7 +8,7 @@ export default function AddComic() {
   function comicSubmit(e) {
     e.preventDefault();
 
-    fetch('http://localhost:4000/comic', {
+    fetch('https://comics-w7h9.onrender.com/comic', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ title, description: desc, image: image_url, is_archived: false })
