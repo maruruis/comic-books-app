@@ -12,7 +12,7 @@ export default function Comics() {
         setComics(data);
       });
   }, []);
-
+        // Handle a change to the comic data
   const handleComicChange = (newValue, oldValue) => {
     console.log(`The value of the comic has changed from ${oldValue} to ${newValue}`);
   };
