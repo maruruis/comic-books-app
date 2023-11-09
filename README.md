@@ -11,11 +11,12 @@
     - And your application is running.
        
 ## Live link
-Deployed Frontend can be accessed here [Blog](https://nextblog-k-koech.vercel.app/)   
+Deployed Frontend can be accessed here https://taupe-clafoutis-b7ad52.netlify.app/
+deployed backend can be accessed here  https://comics-w7h9.onrender.com
 
 
 ## Known Bugs
-    The application images dissapears in heroku
+    
     Otherwise application works perfectly well, no bugs.
 
 ## Technologies used
