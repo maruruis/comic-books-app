@@ -7,7 +7,7 @@ export default function SingleComic() {
   const { id } = useParams();
    // Declare a state variable to store the comic data
   const [comic, setComic] = useState([]);
-
+    // Use the useEffect hook to fetch the comic data when the component mounts or when the id parameter changes
   useEffect(() => {
     if (id) {
       fetch(`https://comics-w7h9.onrender.com/comic/${id}`)
