@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 // declare a functional component named comic
 export default function Comic({comic}) 
-{
-
+{ 
+  // Define a function called deleteComic that sends a DELETE request to the API to delete the comic
     function deleteComic(){
         fetch(`https://comics-w7h9.onrender.com/comic/${comic.id}`, {
             method: "DELETE"
