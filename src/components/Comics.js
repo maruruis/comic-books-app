@@ -19,7 +19,7 @@ export default function Comics() {
 
   return (
     <div className="container bg-white text-dark p-4">
-      <h1 className="text-center">Comic Books</h1>
+      
       {comics.length === 0 && (
         <p className="alert alert-warning">There are no comics at the moment</p>
       )}
