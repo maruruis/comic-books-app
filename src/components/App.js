@@ -8,11 +8,8 @@ import Home from '../Pages/Home';
 import SingleComic from '../Pages/SingleComic';
 import AddComic from '../Pages/AddComic';
 import 'semantic-ui-css/semantic.min.css';
-
-
 function App() 
 {
-
 // Wrap the entire app in a BrowserRouter component to enable routing
   return (
    <BrowserRouter>
