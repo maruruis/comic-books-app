@@ -6,8 +6,8 @@
     - Download zip in the code section of github to your desired folder
     - Extract the files
     - Open the folder with vs code.
-    - Then run "json-server --watch db.json" to run our server.
-    - then type npm start to run the application.
+    - Then make sure you are in the backend directory then open terminal and run node server.js
+    - open another terminal then type npm start to run the application.
     - And your application is running.
        
 ## Live link
@@ -23,6 +23,7 @@ deployed backend can be accessed here  https://comics-w7h9.onrender.com
     - JS
     - CSS
     - BOOTSRAP
+    - HTML
 
 ## Support and contact details
     - email :: ianmwng@gmail.com
