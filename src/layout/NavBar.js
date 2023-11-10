@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Image from '../images/comic.jpeg';
+import Image from '../images/comic.png';
 
 export default function Navbar(props) {
   return (
