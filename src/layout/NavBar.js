@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Image from '../images/comic.jpeg';
 
 export default function Navbar(props) {
   return (
     <div>
       <nav className="navbar navbar-expand-lg  bg-white ">
         <div className="container-fluid">
-          <h4 className='text-primary'>COMIC BOOKS</h4>
+          <img src={Image} alt="Comic Books Logo" className="img-fluid"width={80} />
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <div className="ms-auto">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
