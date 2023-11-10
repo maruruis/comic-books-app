@@ -5,6 +5,7 @@ import Layout from '../layout/Layout';
 import About from '../Pages/About';
 import Contact from '../Pages/Contact';
 import Home from '../Pages/Home';
+import SingleComic from '../Pages/SingleComic';
 import AddComic from '../Pages/AddComic';
 import 'semantic-ui-css/semantic.min.css';
 function App() 
@@ -17,6 +18,7 @@ function App()
        <Route index element={<Home />} />
        <Route path='about' element={<About />} />
        <Route path='addcomic' element={<AddComic/>} />
+       <Route path='comics/:id' element={<SingleComic />} />
        <Route path='contact' element={<Contact />} />
     </Route>
    </Routes>
