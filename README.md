@@ -16,7 +16,8 @@ deployed backend can be accessed here  https://comics-w7h9.onrender.com
 
 
 ## Known Bugs
-    the applications runs well there is no bugs
+    the applications runs well there is no bugs found
+
     
 
 ## Technologies used
