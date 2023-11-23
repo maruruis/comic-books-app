@@ -12,7 +12,7 @@ export default function Comic({comic})
       .then((res)=>res.json())
       .then((res)=>{
         console.log(res);
-        alert('Comic deleted successfully!');
+        alert('Comic deleted successfully!!');
       })
 
 
